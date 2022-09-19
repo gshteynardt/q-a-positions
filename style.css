@@ -1,0 +1,50 @@
+.list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.list__item {
+  display: inline;
+  margin-right: 10px;
+}
+
+.wrapper {
+  width: 500px;
+  height: 1500px;
+  border: 3px solid black;
+  margin: 20px;
+}
+
+.box {
+  height: 50px;
+}
+
+.box_color_green {
+  background-color: green;
+}
+
+.box_color_red {
+  background-color: red;
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+
+.box_color_blue {
+  background-color: blue;
+}
+
+/* .wrapper {
+  height: 100px;
+}
+
+.box_color_red {
+  background-color: red;
+  width: 1000px;
+  margin-bottom: 30px;
+}
+
+.box_color_aqua {
+  background-color: aqua;
+  max-width: 1000px;
+} */
